@@ -1,6 +1,6 @@
 // Haz tú validación en javascript
 // Constantes de los inputs involucradas
-const inputs = document.querySelectorAll(".form__name, .contacto__textarea");
+const inputs = document.querySelectorAll(".form_name, .contacto__textarea");
 // Errores al tratar de validar Validaciones
 const tipoError = ["valueMissing", "patternMismatch", "tooShort"];
 // Inputs con los mensajes dependiendoo de los Errores en cada Input
@@ -16,6 +16,7 @@ const msjErrores = {
 };
 inputs.forEach((input) => {
   input.addEventListener("blur", (input) => {
+    console.log("hola");
     validar(input.target);
   });
 });
@@ -29,7 +30,7 @@ function validar(input) {
       mostrarMsjError(tipoDeInput, input);
   }
 }
-
+//
 function mostrarMsjError(tipoDeInput, input) {
   let msj = "";
   tipoError.forEach((e) => {
