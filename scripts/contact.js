@@ -42,15 +42,15 @@ function mostrarMsjError(tipoDeInput, input) {
 
 // Enviar mensaje mediante servicio Emailjs
 
-const btn = document.getElementById("button");
-const nombre = document.getElementById("from_name");
-const mensaje = document.getElementById("message");
 const form = document.getElementById("form");
+const nombre = document.getElementById("form_name");
+const mensaje = document.getElementById("message");
+const btn = document.getElementById("button");
 
 form.addEventListener("submit", function (event) {
   event.preventDefault();
 
-  btn.value = "Enviando";
+  btn.value = "Enviando...";
 
   const serviceID = "default_service";
   const templateID = "template_hnb477t";
@@ -58,10 +58,7 @@ form.addEventListener("submit", function (event) {
   emailjs.sendForm(serviceID, templateID, this).then(
     () => {
       btn.value = "Enviar mensaje";
-      nombre.value = "";
-      email.value = "";
-      asunto.value = "";
-      mensaje.value = "";
+      window.document.location.reload();
     },
     (err) => {
       btn.value = "Intentar de nuevo";

@@ -17,6 +17,13 @@
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
     <script defer src="./scripts/contact.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      emailjs.init("SU5d0oyVHaJEhz5U6");
+    </script>
     <title>BOOKS - Login</title>
   </head>
   <body>
@@ -182,15 +189,15 @@
           <li>Quiero ser franquiciado</li>
           <li>Anúncie aquí</li>
         </ol>
-        <form id="form" class="contacto__form" action="">
+        <form id="form" class="contacto__form" action="" name="form">
           <p class="contacto__form_title">Hable con nosotros</p>
           <div class="contacto__input contacto__input__name">
             <input
-              id="form__name"
+              id="from_name"
               data-tipo="nombre"
-              class="form__name"
+              class="from_name"
               type="text"
-              name="name"
+              name="from_name"
               placeholder="none"
               required
               pattern="[A-Z a-z]{3,}"
