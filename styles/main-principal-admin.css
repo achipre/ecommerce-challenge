@@ -1,0 +1,116 @@
+.principal {
+  background-color: var(--color-seconday);
+}
+.principal .catalog {
+  max-width: 1280px;
+  background-color: transparent;
+  margin: 0 auto;
+  padding: 32px 16px 32px;
+}
+
+.principal .catalog .genero {
+  background-color: transparent;
+}
+
+.principal .catalog .genero .genero__head {
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-tertiary);
+  border-bottom: 3px solid var(--color-tertiary);
+  background-color: transparent;
+}
+
+.principal .catalog .genero .genero__head .genero__head-title {
+  font-size: 2rem;
+  background-color: transparent;
+}
+.principal .catalog .genero .genero__head .button__add__products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  background-color: var(--color-action);
+  height: 38px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: black;
+  transform: translateY(-8px);
+}
+.principal .catalog .genero .genero__head .button__add__products:hover {
+  background-color: var(--color-action-hover);
+  cursor: pointer;
+}
+.principal .catalog .genero .books {
+  margin: 16px 0;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
+  gap: 16px;
+  background-color: transparent;
+}
+
+.principal .catalog .genero .books picture {
+  min-width: 148px;
+  max-width: 180px;
+  background-color: transparent;
+}
+.principal .catalog .genero .books picture img {
+  width: 100%;
+}
+.principal .catalog .genero .books picture .detail {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  gap: 6px;
+  padding: 8px;
+}
+
+.principal .catalog .genero .books picture .detail .title__book {
+  font-size: 1.4rem;
+  color: var(--color-tertiary);
+  font-weight: 400;
+  background-color: transparent;
+}
+
+.principal .catalog .genero .books picture .detail .price__book {
+  font-size: 1.8rem;
+  color: var(--color-tertiary);
+  background-color: transparent;
+}
+
+.principal .catalog .genero .books picture .detail .ver__book {
+  font-size: 1.2rem;
+  color: var(--color-link);
+  background-color: transparent;
+}
+
+.principal .catalog .genero .books picture .detail .ver__book:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width:320px) {
+  .principal {
+    min-width: 250px;
+  }
+
+}
+@media (min-width:768px) {
+  .principal .catalog .genero .books {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+  .principal .catalog .genero .books picture .detail .title__book {
+    font-size: 1.6rem;
+  }
+
+  .principal .catalog .genero .books picture .detail .price__book {
+    font-size: 2rem;
+  }
+
+  .principal .catalog .genero .books picture .detail .ver__book {
+    font-size: 1.4rem;
+  }
+
+}

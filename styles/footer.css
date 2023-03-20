@@ -1,0 +1,324 @@
+.rodapie{
+  width: 100%;
+  max-width: 1280px;
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+  gap: 16px;
+}
+.rodapie .contacto {
+  width: 80%;
+  max-width: 360px;
+  padding: 6px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-primary);
+  gap: 14px;
+}
+.rodapie .contacto .contacto__logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background-color: var(--color-primary);
+  gap: 6px;
+}
+.rodapie .contacto .contacto__logo svg {
+  background-color: var(--color-primary);
+  width: 32px;
+}
+.rodapie .contacto .contacto__logo p {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--color-tertiary);
+  background-color: var(--color-primary);
+}
+.rodapie .contacto .contacto__logo svg circle{
+  fill: var(--color-quaternary);
+}
+.rodapie .contacto .contacto__logo svg path{
+  fill: var(--color-primary);
+}
+
+.rodapie .contacto .contacto__list-options{
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.rodapie .contacto .contacto__list-options li{
+  text-align: center;
+  color: var(--color-tertiary);
+}
+.rodapie .contacto .contacto__list-options li{
+  background-color: var(--color-primary);
+  font-size: 1.4rem;
+}
+.rodapie .contacto .contacto__form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.rodapie .contacto .contacto__form p{
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+  font-weight: 700;
+  font-size: 1.6rem;
+  transform: translateY(12px);
+}
+.rodapie .contacto .contacto__form .contacto__input__name {
+  width: 100%;
+  position: relative;
+  height: 42px;
+  background-color: var(--color-seconday);
+}
+
+.rodapie .contacto .contacto__form .contacto__input__name label {
+  position: absolute;
+  padding: 14px;
+  padding-left: 12px;
+  font-size: 1.2rem;
+  pointer-events: none;
+  color: var(--color-disable);
+  transition: all 0.3s ease;
+}
+.rodapie .contacto .contacto__form .contacto__input__name .alert-messages,
+.rodapie .contacto .contacto__form .contacto__textarea__message .alert-messages{
+  position: absolute;
+  font-size: 1.2rem;
+  color: var(--color-alert);
+  background-color: transparent;
+  animation: shake 0.8s ease-in-out both;
+}
+.rodapie .contacto .contacto__form .contacto__textarea__message .alert-messages{
+  animation: shake-textarea 0.8s ease-in-out both;
+}
+@keyframes shake {
+  0%, 100% {transform: translateY(46px) translateX(12px)}
+  10%, 30%, 50%, 70% {transform: translateY(46px) translateX(2px)}
+  20%, 40%, 60% {transform: translateY(46px) translateX(22px)}
+  80% {transform: translateY(46px) translateX(20px)}
+  90% {transform: translateY(46px) translateX(4px)}
+}
+@keyframes shake-textarea {
+  0%, 100% {transform: translateY(88px) translateX(12px)}
+  10%,
+  30%,
+  50%,
+  70% {transform: translateY(88px) translateX(2px)}
+
+  20%,
+  40%,
+  60% {transform: translateY(88px) translateX(22px)}
+
+  80% {transform: translateY(88px) translateX(20px)}
+
+  90% {transform: translateY(88px) translateX(4px)}
+}
+
+.rodapie .contacto .contacto__form .contacto__input__name input {
+  position: absolute;
+  font-size: 1.6rem;
+  padding: 18px 12px 4px;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  background-color: transparent;
+  color: var(--color-tertiary);
+}
+
+.rodapie .contacto .contacto__form .contacto__input__name input:focus~label,
+.rodapie .contacto .contacto__form .contacto__input__name input:not(:placeholder-shown)~label {
+  padding-top: 4px;
+
+}
+
+.rodapie .contacto .contacto__form .contacto__input__name input::placeholder {
+  color: transparent;
+
+}
+.rodapie .contacto .contacto__form .contacto__textarea__message {
+  width: 100%;
+  position: relative;
+  height: 84px;
+  background-color: var(--color-seconday);
+}
+
+.rodapie .contacto .contacto__form .contacto__textarea__message label {
+  position: absolute;
+  padding: 14px;
+  padding-left: 12px;
+  font-size: 1.2rem;
+  pointer-events: none;
+  color: var(--color-disable);
+  transition: all 0.3s ease;
+}
+
+.rodapie .contacto .contacto__form .contacto__textarea__message textarea {
+  resize: none;
+  position: absolute;
+  font-size: 1.4rem;
+  padding: 18px 12px 4px;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  background-color: transparent;
+  color: var(--color-tertiary);
+}
+
+.rodapie .contacto .contacto__form .contacto__textarea__message textarea:focus~label,
+.rodapie .contacto .contacto__form .contacto__textarea__message textarea:not(:placeholder-shown)~label {
+  padding-top: 4px;
+
+}
+
+.rodapie .contacto .contacto__form .contacto__textarea__message textarea::placeholder {
+  color: transparent;
+
+}
+
+.rodapie .contacto .contacto__form .contacto__button{
+  background-color: var(--color-action);
+  margin-top: 6px;
+  min-width: 125px;
+  width: 50%;
+  height: 42px;
+  font-size: 1.6rem;
+}
+.rodapie .contacto .contacto__form .contacto__button:hover{
+  background-color: var(--color-action-hover);
+  cursor: pointer;
+}
+
+.rodapie .social{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 360px;
+  background-color: var(--color-primary);
+  gap: 8px;
+}
+.rodapie .social p{
+  text-align: center;
+  font-size: 1.4rem;
+  background-color: var(--color-primary);
+  color: var(--color-quaternary);
+}
+.rodapie .social .social__network{
+  display: flex;
+  background-color: var(--color-primary);
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+.rodapie .social .social__network a{
+  background-color: var(--color-primary);
+  
+}
+.rodapie .social .social__network a svg{
+  background-color: var(--color-primary);
+  width: 26px;
+  height: 26px;
+  
+}
+.rodapie .social .social__network a svg path{
+  fill: var(--color-quaternary);
+  
+}
+@media (max-width:330px) {
+  .rodapie {
+    min-width: 250px;
+  }
+
+}
+
+@media (min-width:600px) {
+  .rodapie {
+    padding: 24px;
+  }
+  .rodapie .contacto{
+    padding: 12px 0 36px;
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-areas: 
+      "logo form form"
+
+      "list form form" ;
+  }
+  .rodapie .contacto .contacto__logo{
+    justify-content: flex-start;
+    width: 100%;
+    grid-area: logo;
+  }
+  .rodapie .contacto .contacto__list-options{
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 100%;
+    grid-area: list;
+  }
+  .rodapie .contacto .contacto__form{
+    justify-content: flex-end;
+    max-width: 150%;
+    grid-area: form;
+  }
+
+}
+@media (min-width:768px) {
+  .rodapie .contacto .contacto__list-options li {
+    font-size: 1.6rem;
+  }
+  .rodapie .contacto .contacto__logo p {
+    font-size: 2rem;
+  }
+  .rodapie .contacto .contacto__logo svg {
+   width: 42px;
+  }
+  .rodapie .contacto .contacto__form p {
+    font-size: 1.8rem;
+  }
+
+  .rodapie .contacto .contacto__form .contacto__input__name input,
+  .rodapie .contacto .contacto__form .contacto__textarea__message textarea {
+    font-size: 1.6rem;
+  }
+  .rodapie .contacto .contacto__form .contacto__input__name label,
+  .rodapie .contacto .contacto__form .contacto__textarea__message label {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width:1020px) {
+  .rodapie {
+    margin: 0 auto;
+    padding: 36px;
+  }
+
+  .rodapie .contacto {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  .rodapie .contacto .contacto__logo {
+    min-width: 120px;
+  }
+
+  .rodapie .contacto .contacto__list-options {
+    align-items: flex-start;
+    justify-content: flex-end;
+    min-width: 160px;
+    grid-area: list;
+  }
+
+  .rodapie .contacto .contacto__form {
+    width: 50%;
+    min-width: 50%;
+  }
+
+}

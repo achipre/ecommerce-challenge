@@ -1,0 +1,157 @@
+.principal{
+  background-color: var(--color-seconday);
+}
+.principal .carousel {
+  overflow-x: hidden;
+  background-color: transparent;
+}
+.principal .carousel .carousel__container{
+  width: 300%;
+  display: flex;
+  transition: all .5s ease-in-out;
+}
+
+.principal .carousel .carousel__container .carousel__banner-promotion{
+  aspect-ratio: 3;
+  width: calc(300% / 3);
+  display: flex;
+  flex-wrap: nowrap;
+}
+.principal .carousel .carousel__container .carousel__banner-promotion:hover{
+  cursor: pointer;
+}
+.principal .carousel .carousel__puntos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+  height: 2rem;
+  background-color: transparent;
+}
+.principal .carousel .carousel__puntos .carousel__punto:hover{
+  cursor: pointer;
+}
+.principal .carousel .carousel__punto{
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  
+}
+.principal .carousel .carousel__punto.activo{
+  background-color: var(--color-tertiary);
+}
+
+/* Libros */
+.principal .catalog {
+  max-width: 1280px;
+  background-color: transparent;
+  margin: 0 auto;
+  padding: 0 16px 32px;
+}
+.principal .catalog .genero{
+  background-color: transparent;
+  padding-bottom: 32px;
+}
+.principal .catalog .genero .genero__head{
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  color: var(--color-tertiary);
+  border-bottom: 3px solid var(--color-tertiary);
+  background-color: transparent;
+}
+.principal .catalog .genero .genero__head .genero__head-title{
+  font-size: 2rem;
+  background-color: transparent;
+}
+.principal .catalog .genero .genero__head .vermas{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-link);
+  background-color: transparent;
+}
+.principal .catalog .genero .genero__head .vermas:hover{
+  text-decoration: underline;
+}
+
+.principal .catalog .genero .genero__head .vermas p{
+  display: inline-block;
+  font-size: 1.6rem;
+  background-color: transparent;
+}
+.principal .catalog .genero .genero__head .vermas .back__search{
+  width: 18px;
+  transform: rotate(180deg);
+  fill: var(--color-tertiary);
+  background-color: transparent;
+}
+.principal .catalog .genero .genero__head .vermas .back__search path{
+  fill: var(--color-link);
+}
+.principal .catalog .genero .books{
+  margin: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  gap: 16px;
+  background-color: transparent;
+}
+
+.principal .catalog .genero .books picture{
+  min-width: 148px;
+  background-color: transparent;
+}
+.principal .catalog .genero .books picture .detail{
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  gap: 6px;
+  padding: 8px;
+}
+.principal .catalog .genero .books picture .detail .title__book{
+  font-size: 1.4rem;
+  color: var(--color-tertiary);
+  font-weight: 400;
+  background-color: transparent;
+}
+.principal .catalog .genero .books picture .detail .price__book{
+  font-size: 1.8rem;
+  color: var(--color-tertiary);
+  background-color: transparent;
+}
+.principal .catalog .genero .books picture .detail .ver__book{
+  font-size: 1.2rem;
+  color: var(--color-link);
+  background-color: transparent;
+}
+.principal .catalog .genero .books picture .detail .ver__book:hover{text-decoration: underline;
+}
+
+
+@media (max-width:320px) {
+  .principal {
+    min-width: 250px;
+  }
+
+}
+
+@media (min-width: 768px){
+  .principal .carousel .carousel__container .carousel__banner-promotion {
+    aspect-ratio: 3.5;
+  }
+  .principal .catalog .genero .books picture .detail .title__book {
+    font-size: 1.6rem;
+  }
+
+  .principal .catalog .genero .books picture .detail .price__book {
+    font-size: 2rem;
+  }
+
+  .principal .catalog .genero .books picture .detail .ver__book {
+    font-size: 1.4rem;
+  }
+}

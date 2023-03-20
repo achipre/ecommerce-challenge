@@ -1,0 +1,172 @@
+.product__card {
+  padding: 16px;
+  background-color: var(--color-seconday);
+}
+.product__card .product__description {
+  max-width: 1280px;
+  padding-top: 32px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+  background-color: var(--color-seconday);
+}
+.product__card .product__description picture{
+  max-width: 390px;
+  margin: 0 auto;
+}
+.product__card .product__description .description{
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  max-width: 420px;
+  margin: 0 auto;
+  background-color: transparent;
+}
+.product__card .product__description .description .product{
+  background-color: transparent;
+  color: var(--color-quaternary);
+  font-size: 2.4rem;
+  padding-bottom: .8rem;
+  font-weight: 700;
+}
+.product__card .product__description .description .price{
+  background-color: transparent;
+  color: var(--color-quaternary);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.product__card .product__description .description .text__description{
+  background-color: transparent;
+  color: var(--color-quaternary);
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.product__card .catalog {
+  max-width: 1280px;
+  background-color: transparent;
+  margin: 0 auto;
+  padding: 32px 0 0;
+}
+
+.product__card .catalog .genero {
+  background-color: transparent;
+}
+
+.product__card .catalog .genero .genero__head {
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-tertiary);
+  border-bottom: 3px solid var(--color-tertiary);
+  background-color: transparent;
+}
+
+.product__card .catalog .genero .genero__head .genero__head-title {
+  font-size: 2rem;
+  background-color: transparent;
+}
+
+.product__card .catalog .genero .genero__head .button__add__products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  background-color: var(--color-action);
+  height: 38px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--color-quaternary);
+  transform: translateY(-8px);
+}
+
+.product__card .catalog .genero .genero__head .button__add__products:hover {
+  background-color: var(--color-action-hover);
+  cursor: pointer;
+}
+
+.product__card .catalog .genero .books {
+  margin: 16px 0;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
+  gap: 16px;
+  background-color: transparent;
+}
+
+.product__card .catalog .genero .books picture {
+  min-width: 148px;
+  max-width: 180px;
+  background-color: transparent;
+}
+
+.product__card .catalog .genero .books picture img {
+  width: 100%;
+}
+
+.product__card .catalog .genero .books picture .detail {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  gap: 6px;
+  padding: 8px;
+}
+
+.product__card .catalog .genero .books picture .detail .title__book {
+  font-size: 1.4rem;
+  color: var(--color-tertiary);
+  font-weight: 400;
+  background-color: transparent;
+}
+
+.product__card .catalog .genero .books picture .detail .price__book {
+  font-size: 1.8rem;
+  color: var(--color-tertiary);
+  background-color: transparent;
+}
+
+.product__card .catalog .genero .books picture .detail .ver__book {
+  font-size: 1.2rem;
+  color: var(--color-link);
+  background-color: transparent;
+}
+
+.product__card .catalog .genero .books picture .detail .ver__book:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width:320px) {
+  .product__card {
+    min-width: 250px;
+  }
+
+}
+
+@media (min-width:768px) {
+  .principroduct__cardpal .catalog .genero .books {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+  .product__card .catalog .genero .books picture .detail .title__book {
+    font-size: 1.6rem;
+    color: var(--color-tertiary);
+    font-weight: 400;
+    background-color: transparent;
+  }
+
+  .product__card .catalog .genero .books picture .detail .price__book {
+    font-size: 2rem;
+    color: var(--color-tertiary);
+    background-color: transparent;
+  }
+
+  .product__card .catalog .genero .books picture .detail .ver__book {
+    font-size: 1.4rem;
+    color: var(--color-link);
+    background-color: transparent;
+  }
+
+}

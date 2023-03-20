@@ -1,0 +1,28 @@
+.header {
+  min-width: 260px;
+}
+.header .options:has(.checkbox__back__search:checked)>.input {
+  width: 100%;
+}
+.header:has(.checkbox__back__search:checked)>.options {
+  width: 100%;
+}
+@media (min-width: 425px) {
+  .header:has(.checkbox__back__search:checked)>.options {
+    width: calc(100% - 120px);
+    max-width: 600px;
+  }
+}
+@media (min-width: 768px) {
+  .header .input .search .input__search {
+    width: 460px;
+  }
+  .header .options {
+    width: calc(100% - 125px);
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+  }
+  .header .options .input {
+    margin-right: auto;
+  }
+}
