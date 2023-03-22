@@ -102,6 +102,7 @@
 }
 
 .principal .catalog .genero .books picture{
+  aspect-ratio: 0.666;
   min-width: 148px;
   background-color: transparent;
 }
@@ -130,6 +131,9 @@
 }
 .principal .catalog .genero .books picture .detail .ver__book:hover{text-decoration: underline;
 }
+.principal .catalog .genero .books picture img{
+  aspect-ratio: 0.666;
+}
 
 
 @media (max-width:320px) {
@@ -139,6 +143,11 @@
 
 }
 
+@media (min-width: 600px){
+  .principal .catalog .genero .books picture {
+    min-width: 170px;
+  }
+}
 @media (min-width: 768px){
   .principal .carousel .carousel__container .carousel__banner-promotion {
     aspect-ratio: 3.5;
@@ -153,5 +162,8 @@
 
   .principal .catalog .genero .books picture .detail .ver__book {
     font-size: 1.4rem;
+  }
+  .principal .catalog .genero .books picture {
+    min-width: 194px;
   }
 }

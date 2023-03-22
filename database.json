@@ -1,0 +1,243 @@
+{"libros": [
+  {
+    "nombre": "El Diario de Ana Frank",
+    "author": "Anne Frank",
+    "genre": "Biographie",
+    "price": "$19,99",
+    "url_img": "../assets/catalog/anna_frank.jpg",
+    "description": "Tras la invasion de Holanda, los Frank, comerciantes judios alemanes emigrados a Amsterdam en 1933, se ocultaron de la Gestapo en una buhardilla anexa al edificio donde el padre de Ana tenia sus oficinas. Eran ocho personas y permanecieron recluidas desde junio de 1942 hasta agosto de 1944, fecha en que fueron detenidos y enviados a campos de concentracion. En ese lugar y en las mas precarias condiciones, Ana, a la sazon una nina de trece anos, escribio su estremecedor Diario: un testimonio unico en su genero sobre el horror y la barbarie nazi, y sobre los sentimientos y experiencias de la propia Ana y sus acompanantes. Ana murio en el campo de Bergen-Belsen en marzo de 1945. Su Diario nunca morira."
+  },
+  {
+    "nombre": "Churchill: La biografía",
+    "author": "Andrew Roberts",
+    "genre": "Biographie",
+    "price": "$19,99",
+    "url_img": "../assets/catalog/churchil_walking_with_destiny.jpg",
+    "description": "Esta es, sin duda, la mejor biografía de Winston Churchill que se haya publicado. Andrew Roberts, considerado como el mejor historiador militar británico, ha podido utilizar para su trabajo una gran cantidad de documentos que ningún biógrafo había podido consultar con anterioridad, incluídos los diarios privados del rey Jorge VI, que se reunía regularmente con Churchill durante la guerra. La riqueza de la documentación que maneja permite a Roberts ahondar en la realidad humana del personaje, siguiendo su vida desde su infancia y la conflictiva relación con su padre hasta su declive, lo cual hace que el lector pueda «ver la segunda guerra mundial a través del prisma del resto de su vida»."
+  },
+  {
+    "nombre": "Einstein: Su vida y su universo",
+    "author": "Walter Isaacson",
+    "genre": "Biographie",
+    "price": "$19,99",
+    "url_img": "../assets/catalog/einstein_life_and_universe.jpg",
+    "description": "La biografía definitiva de Albert Einstein, uno de los iconos del siglo XX y su mayor genio.Albert Einstein es uno de los científicos más importantes de la historia y un icono del siglo XX. ¿Cómo funcionaba su mente? ¿Qué le hizo un genio? ¿Cómo era el hombre detrás de la celebridad? Walter Isaacson, que tuvo acceso a los archivos de Einstein, ofrece un extraordinario retrato del personaje y de su época, así como un fascinante relato de su vida. A partir de su correspondencia privada, cuenta cómo un funcionario de patentes imaginativo e impertinente (un mal padre con un matrimonio complicado, incapaz de conseguir un empleo en la universidad ni un doctorado) logró desvelar los secretos del cosmos y comprender los misterios del átomo y del universo. Su creatividad esta..."
+  },
+  {
+    "nombre": "Leonardo da Vinci: La biografía",
+    "author": "Walter Isaacson",
+    "genre": "Biographie",
+    "price": "$19,99",
+    "url_img": "../assets/catalog/leonardo_da_vinci.jpg",
+    "description": "El aclamado autor de los best sellers Steve Jobs y Einstein nos vuelve a cautivar con la vida del genio más creativo de la historia en esta fascinante biografía. Basándose en las miles de páginas de los cuadernos manuscritos de Leonardo y nuevos descubrimientos sobre su vida y su obra, Walter Isaacson teje una narración que conecta el arte de Da Vinci con sus investigaciones científicas, y nos muestra cómo el genio del hombre más visionario de la historia nació de habilidades que todos poseemos y podemos estimular, tales como la curiosidad incansable, la observación cuidadosa y la imaginación juguetona. Su creatividad, como la de todo gran innovador, resultó de la intersección entre la tecnología y las humanidades. Despellejó y estudió el rostro de numerosos cadáveres, dibujó..."
+  },
+  {
+    "nombre": "Malcom X - Autobiografía",
+    "author": "Malcom X",
+    "genre": "Biographie",
+    "price": "$19,99",
+    "url_img": "../assets/catalog/malcon_x.jpg",
+    "description": "En la década de 1960, decisiva para el movimiento por los derechos civiles, numerosas voces de protesta y de cambio se elevaron por encima del estruendo de la historia y de las falsas promesas. Pero una de ellas sonaba con más urgencia y pasión que el resto: Malcolm X, el líder musulmán, instigador y anti-integracionista, calificado en alguna ocasión como el hombre más peligroso de América, desafiaba al mundo a escuchar y aprender la verdad como él la había experimentado. Fundó la Organización de la Unidad Afroamericana para enviar a los afroamericanos de todo el país un mensaje inspirador de orgullo, poder y autodeterminación."
+  },
+  {
+    "nombre": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "genre": "Biographie",
+    "price": "$19,99",
+    "url_img": "../assets/catalog/steve_jobs.jpg",
+    "description": "La muerte de Steve Jobs ha conmocionado al mundo. Tras entrevistarlo en más de cuarenta ocasiones en los últimos dos años, además de a un centenar de personas de su entorno, familiares, amigos, adversarios y colegas, Walter Isaacson nos presenta la única biografía escrita con la colaboración de Jobs, el retrato definitivo de uno de los iconos indiscutibles de nuestro tiempo, la crónica de la agitada vida y abrasiva personalidad del genio cuya creatividad, energía y afán de perfeccionismo revolucionaron seis industrias: la informática, el cine de animación, la música, la telefonía, las tabletas y la edición digital."
+  },
+  {
+    "nombre": "Ana Karenina",
+    "author": "Lev Tolstói",
+    "genre": "Clasics",
+    "price": "$14,99",
+    "url_img": "../assets/catalog/anna_kerenina.jpg",
+    "description": "Ana Karénina es una novela del autor ruso León Tolstói, publicada por primera vez en forma de libro en 1878. Muchos escritores la consideran una de las obras literarias más grandes jamás escritas, y el mismo Tolstói la llamó su primera novela verdadera."
+  },
+  {
+    "nombre": "Don Quijote de la Mancha",
+    "author": "Miguel de Cervantes Saavedra",
+    "genre": "Clasics",
+    "price": "$14,99",
+    "url_img": "../assets/catalog/don_quijote.jpg",
+    "description": "Don Quijote de la Mancha es una de las obras cumbre de la literatura universal; obtuvo un gran éxito desde su publicación, se ha reeditado constantemente y se ha traducido a todas las lenguas de cultura del mundo. La influencia del Quijote ha sido decisiva en el género novelesco y todos los grandes novelistas del XIX lo tuvieron en cuenta, por lo que se considera a Cervantes como el creador de la novela moderna."
+  },
+  {
+    "nombre": "Aventuras de Huckleberry Finn",
+    "author": "Mark Twain",
+    "genre": "Clasics",
+    "price": "$14,99",
+    "url_img": "../assets/catalog/huckleberry_finn.jpg",
+    "description": "Huckleberry Finn, el amigo de Tom Sawyer, es un muchacho aventurero al que no le gusta la escuela sino andar por ahí a su aire. Sin embargo, la vida de Huck no es fácil, su padre lo maltrata y tiene que vivir con la viuda Douglas, una mujer que se ha propuesto 'civilizarlo' . Huck decide escapar de todo y emprende un viaje por el río Misisipi. En su huida le acompañará Jim, un esclavo negro que busca su libertad. Entre lo dos se forjará una especial amistad."
+  },
+  {
+    "nombre": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "genre": "Clasics",
+    "price": "$14,99",
+    "url_img": "../assets/catalog/jane_eyre.jpg",
+    "description": "La historia es narrada por Jane Eyre quien a los 10 años de edad es custodiada por su tía política, la señora Reed. El señor Reed, hermano de la madre de Jane, la tomó a su cargo cuando quedó huérfana, pero muriendo él mismo poco después, y a pesar de haber hecho prometer a su esposa que la criaría como a uno de sus propios hijos, Jane no ha conocido sino humillaciones y maltratos por parte de todos en la suntuosa mansión, Gateshead Hall.Cuando Jane empieza a cuestionar la injusticia con que se le trata, y a rebelarse contra ella, es enviada a una escuela para niñas, Lowood.Lowood es una institución financiada en parte por donaciones para educar huérfanas. El afán del señor Brocklehurst, el tesorero, de convertir a las niñas en mujeres resistentes, pacientes y abnegadas, justifica para él el hambre y el frío que sufren en el lugar."
+  },
+  {
+    "nombre": "Orgullo y prejuicio",
+    "author": "Jane Austen",
+    "genre": "Clasics",
+    "price": "$14,99",
+    "url_img": "../assets/catalog/pride_and_prejudice.jpg",
+    "description": "La señora Bennet ha criado a sus cinco hijas con el único deseo de encontrar marido. La llegada al vecindario, junto con algunas amistades, del rico y soltero Charles Bingley despierta el interés de las hermanas Bennet y de las familias vecinas, que verán una excelente oportunidad para cumplir su propósito. Elizabeth, una de las hijas de los Bennet, empezará una singular relación con Darcy, uno de los amigos de Bingley, que desencadenará esta historia de orgullo y prejuicios a través de los que muy trabajosamente se irá abriendo paso el amor. Orgullo y prejuicio narra las aventuras y desventuras amorosas de las hermanas Bennet, centrándose en el personaje de Elizabeth,por medio de las que la autora nos presenta con comicidad la sociedad de su tiempo y con la figura de la protagoni..."
+  },
+  {
+    "nombre": "La Divina Comedia",
+    "author": "Dante Alighieri",
+    "genre": "Clasics",
+    "price": "$14,99",
+    "url_img": "../assets/catalog/the_divine_comedy.jpg",
+    "description": "La Divina Comedia es un poema donde se mezcla la vida real con la sobrenatural, muestra la lucha entre la nada y la inmortalidad, una lucha donde se superponen tres reinos, tres mundos, logrando una suma de múltiples visuales que nunca se contradicen o se anulan. Los tres mundos infierno, purgatorio y paraíso reflejan tres modos de ser de la humanidad, en ellos se reflejan el vicio, el pasaje del vicio a la virtud y la condición de los hombres perfectos. Es entonces a través de los viciosos, penitentes y buenos que se revela la vida en todas sus formas, sus miserias y hazañas, pero también se muestra la vida que no es, la muerte, que tiene su propia vida, todo como una mezcla agraciada planteada por Dante, que se vuelve arquitecto de lo universal y de lo sublime."
+  },
+  {
+    "nombre": "Bajo la misma estrella",
+    "author": "John Green",
+    "genre": "Romance",
+    "price": "$7,99",
+    "url_img": "../assets/catalog/bajo_la_misma_estrella.jpg",
+    "description": "Emotiva, ironica y afilada. Una novela tenida de humor y de tragedia que habla de nuestra capacidad para sonar incluso en las circunstancias mas dificiles. A Hazel y a Gus les gustaria tener vidas mas corrientes. Algunos dirian que no han nacido con estrella, que su mundo es injusto. Hazel y Gus son solo adolescentes, pero si algo les ha ensenado el cancer que ambos padecen es que no hay tiempo para lamentaciones, porque, nos guste o no, solo existe el hoy y el ahora. Y por ello, con la intencion de hacer realidad el mayor deseo de Hazel -conocer a su escritor favorito-, cruzaran juntos el Atlantico para vivir una aventura contrarreloj, tan catartica como desgarradora. Destino: Amsterdam, el lugar donde reside el enigmatico y malhumorado escritor, la unica persona que tal vez pueda..."
+  },
+  {
+    "nombre": "Yo antes de tí",
+    "author": "Jojo Moyes",
+    "genre": "Romance",
+    "price": "$7,99",
+    "url_img": "../assets/catalog/yo_antes_de_ti.jpg",
+    "description": "Louisa Clark sabe muchas cosas. Sabe cu ntos pasos hay entre la parada del autobús y su casa. Sabe que le gusta trabajar en el cafe Buttered Bun y sabe que quizá no quiera a su novio Patrick. Lo que Louisa no sabe es que está a punto de perder su trabajo o que son sus pequeñas rutinas las que la mantienen en su sano juicio. Will Traynor sabe que un accidente de moto se lleva sus ganas de vivir. Sabe que ahora todo le parece insignificante y triste y sabe exactamente como va a solucionarlo..."
+  },
+  {
+    "nombre": "Romeo y Julieta",
+    "author": "William Shakespeare",
+    "genre": "Romance",
+    "price": "$7,99",
+    "url_img": "../assets/catalog/romeo_y_julieta.jpg",
+    "description": "A pesar del odio que separa a sus dos familias (los Capuleto y los Montesco), Romeo y Julieta se aman, logran reunirse y contraer matrimonio; sin embargo, la fatalidad los arrastra a la muerte."
+  },
+  {
+    "nombre": "El Guardian",
+    "author": "Nicholas Sparks",
+    "genre": "Romance",
+    "price": "$7,99",
+    "url_img": "../assets/catalog/the_guardian.jpg",
+    "description": "Ya han pasado tres años desde que su esposo murió y Julie siente que por fin hallegado el momento de rehacer su vida. Una opción es Richard, un hombre guapo y sofisticado que la trata como a una reina; otra es Mike, el mejor amigo de su difunto marido, un hombre sensato y cabal. Tras esa elección la esperan momentos de felicidad que no había sentido en años."
+  },
+  {
+    "nombre": "The Notebook",
+    "author": "Nicholas Sparks",
+    "genre": "Romance",
+    "price": "$7,99",
+    "url_img": "../assets/catalog/the_notebook.jpg",
+    "description": "Una historia de amor que ha encandilado a lectores de todo el mundo. Un clásico inolvidable. Un hombre tiene un cuaderno viejo, traído y llevado mil veces, en su regazo. Una mujer a su lado escucha lo que él le lee cada mañana, aunque no acaba de entender. Muchos años antes, Noah Calhoun, vuelve a casa, a Carolina del Norte, después de la Segunda Guerra Mundial. Noah, de 31 años, intenta que la plantación de la que procede vuelva a su antigua gloria, pero las imágenes de la preciosa joven que conoció catorce años antes, una mujer a la que amó como a ninguna otra? no paran de perseguirle. A pesar de que no ha sido capaz de volver a encontrarla, tampoco ha conseguido olvidar el verano que pasaron juntos. "
+  },
+  {
+    "nombre": "Rebeca",
+    "author": "Daphne du Maurier",
+    "genre": "Romance",
+    "price": "$7,99",
+    "url_img": "../assets/catalog/rebecca.jpg",
+    "description": "Nadie que conozca la película basada en esta novela podrá olvidar la voz en off que recita la frase inicial de la obra más lograda de Daphne du Maurier: Rebeca. Así comienzan los recuerdos de la segunda señora De Winter, que la transportan de nuevo a la aislada y gris mansión situada en la húmeda y ventosa costa de Cornualles. Con un marido al que apenas conoce, la joven esposa llega a este inmenso predio para ser inexorablemente ahogada por la fantasmal presencia de la primera señora De Winter, la hermosa Rebeca, muerta pero nunca olvidada. Su habitación permanece intacta, sus vestidos listos para ser lucidos y su sirvienta, la siniestra señora Danvers, aún le profesa una devoción malsana. Y con el espeluznante presentimiento de que al..."
+  },
+  {
+    "nombre": "1984",
+    "author": "George Orwell",
+    "genre": "Science Fiction",
+    "price": "$24,99",
+    "url_img": "../assets/catalog/1984.jpg",
+    "description": "1984 es la novela distópica de George Orwell publicada en 1949. Narra la vida de Winston Smith, un miembro de bajo rango del Partido, asfixiado por los ojos omnipresentes de su ominoso gobernante, Gran Hermano, el cual controla la vida de todas las personas: lo que leen, dicen y hacen. Orwell explora con ingenio y brillantez los temas del control de los medios de comunicación, la vigilancia del gobierno, el totalitarismo y, cómo un dictador puede manipular y controlar la historia, los pensamientos y la vida sin que nadie escape. 1984 demuestra que es perfectamente posible el control completo de una nación bajo un estado totalitario, convirtiéndose en una advertencia para la raza humana y en un alegato en favor de la libertad individual y el libre pensamiento."
+  },
+  {
+    "nombre": "2001: Una odisea espacial",
+    "author": "Arthur C. Clarke",
+    "genre": "Science Fiction",
+    "price": "$24,99",
+    "url_img": "../assets/catalog/2001_a_space_odyssey.jpg",
+    "description": "Los doctores David Bowman y Frank Poole se encuentran a bordo del Discovery One con el objetivo de realizar una expedición a los confines del universo en busca de evidencias que confirmen que el ser humano no está solo. Les acompañan tres científicos en animación suspendida y HAL 9000, un ordenador excepcionalmente inteligente. Pero la misión se vuelve muy peligrosa cuando HAL empieza a fallar. ¿Se trata de un problema técnico? ¿O quizá Hal tiene voluntad propia? ¿Qué influencia ejerce el monolito? Con estas preguntas, surgen otras: ¿Cuál es nuestra esencia? ¿Qué lugar ocupamos en el cosmos?"
+  },
+  {
+    "nombre": "Dune",
+    "author": "Herbert Frank",
+    "genre": "Science Fiction",
+    "price": "$24,99",
+    "url_img": "../assets/catalog/dune.jpg",
+    "description": "En el desértico planeta Arrakis, el agua es el bien más preciado y llorar a los muertos, el símbolo de máxima prodigalidad. Pero algo hace de Arrakis una pieza estratégica para los intereses del emperador, las Grandes Casas y la Cofradía, los tres grandes poderes de la galaxia. Arrakis es el único origen conocido de la melange, preciosa especia y uno de los bienes más codiciados del universo. Al duque Leto Atreides se le asigna el gobierno de este mundo inhóspito, habitado por los indómitos Fremen y por monstruosos gusanos de arena de centenares de metros de longitud. Sin embargo, cuando la familia es traicionada, su hijo y heredero, Paul, emprenderá un viaje hacia un destino más grande de..."
+  },
+  {
+    "nombre": "Ready Player One",
+    "author": "Ernest Cline",
+    "genre": "Science Fiction",
+    "price": "$24,99",
+    "url_img": "../assets/catalog/ready_player_one.jpg",
+    "description": "La novela cibernética que ha inspirado la próxima gran producción de Warner Bross, a medio camino entre Avatar y Matrix. Estamos en el año 2044 y, como el resto de la humanidad, Wade Watts prefiere mil veces el videojuego de OASIS al cada vez más sombrío mundo real. Se asegura que esconde las diabólicas piezas de un rompecabezas cuya resolución conduce a una fortuna incalculable. Las claves del enigma están basadas en la cultura de finales del siglo XX y, durante años, millones de humanos han intentado dar con ellas, sin éxito. De repente, Wade logra resolver el primer rompecabezas del premio, y, a partir de ese momento, debe competir contra miles de jugadores para conseguir el trofeo. La única forma de sobrevivir es ganar; pero para hacerlo tendrá que abandonar su existencia virtual y..."
+  },
+  {
+    "nombre": "El marciano",
+    "author": "Andy Weir",
+    "genre": "Science Fiction",
+    "price": "$24,99",
+    "url_img": "../assets/catalog/the_martian.jpg",
+    "description": "Novela brillante, delirio ingenioso, con una mecánica del suspense que sorprenderá al lector una y otra vez. Una experiencia literaria excepcional en gravedad cero. «La mejor novela de ciencia ficción en años.» Wall Street Journal Seis días atrás el astronauta Mark Watney se convirtió en uno de los primeros hombres en caminar por la superficie de Marte. Ahora está seguro de que será el primer hombre en morir allí. La tripulación de la nave en que viajaba se ve obligada a evacuar el planeta a causa de una tormenta de polvo, dejando atrás a Mark tras darlo por muerto. Pero él está vivo, y atrapado a millones de kilómetros de cualquier ser humano, sin posibilidad de enviar señales a la Tierra. De todos modos, si lograra establecer conexión, moriría mucho antes de que el rescate llegara."
+  },
+  {
+    "nombre": "La guerra de los mundos",
+    "author": "H. G. Wells",
+    "genre": "Science Fiction",
+    "price": "$24,99",
+    "url_img": "../assets/catalog/war_of_world.jpg",
+    "description": "La guerra de los mundos (1898) narra por primera vez en la historia de la literatura la invasin̤ de la Tierra por extraterrestres procedentes de Marte. En 1906, el artista brasileǫ Henrique Alvim Corrå realiz ̤un extraordinario trabajo de ilustracin̤ de la novela que recibi ̤la aprobacin̤ y admiracin̤ del propio H. G. Wells. La publicacin̤ de esta obra, rescate de la edicin̤ histr̤ica publicada por la editorial L. Vandamm&Co. en 1906, coincide con el 130.ð aniversario del nacimiento de H. G. Wells y el 140.ð aniversario del nacimiento de Alvim Corrå."
+  },
+  {
+    "nombre": "Drácula",
+    "author": "Bram Stoker",
+    "genre": "Terror",
+    "price": "$14,99",
+    "url_img": "../assets/catalog/dracula.jpg",
+    "description": "Las de Bram Stoker y Jonathan Haker fueron vidas paralelas. Stoker era el secretario particular de Henry Irving, un reputado actor shakespeariano y propietario del Lyceum Theatre de Londres; Harker, el del enigmático conde Drácula, quien lo convocó a su castillo de Transilvania para negociar la adquisición de una mansión en Londres. No es casual que el personaje de Drácula se inspire en las facciones e idiosincrasia de Irving, ni que stoker hiciese una lectura pública en el Lyceum Theatre días antes de su edición. Drácula es la novela vampírica por antonomasia. En ella se concitan los grandes eje s temáticos del subgénero: la lucha entre el bien y el mal y la sexualidad del vampiro, con una estética victoriana y un despliegue estilístico abrumador. Todo ello la convierte en un clásico incontestable e imperecedero."
+  },
+  {
+    "nombre": "Cementerio de animales",
+    "author": "Stephen King",
+    "genre": "Terror",
+    "price": "$14,99",
+    "url_img": "../assets/catalog/pet_semantary.jpg",
+    "description": "Cuando el Dr. Louis Creed deja Chicago y se traslada con su familia a la idílica ciudad de Ludlow, en Maine, todo en la vida parece sonreírles. Pero en ese paisaje idílico un peligro oculto acecha a la comunidad. Louis estaba seguro: el gato había muerto atropellado, y por eso lo había enterrado. Aun así, incomprensiblemente, el gato había vuelto a casa. Church estaba allí otra vez, como él temía y al mismo tiempo deseaba, porque su hijita Ellie le había pedido que cuidara de él. Louis lo había enterrado más allá del cementerio de animales. Sin embargo, Church había regresado, y sus ojos eran más crueles y perversos que antes. Aunque volvía a estar allí y Ellie no lo lamentaría, el Dr. Louis Creed sí lo haría. Porque más allá del cementerio de animales, más allá de la valla de troncos..."
+  },
+  {
+    "nombre": "La semilla del diablo",
+    "author": "Ira Levin",
+    "genre": "Terror",
+    "price": "$14,99",
+    "url_img": "../assets/catalog/rosemays_baby.jpg",
+    "description": "Rosemary Woodhouse y su marido, Guy, un actor poco reconocido que lucha por abrirse camino en su carrera, se mudan a un edificio de apartamentos neoyorquino, el Bramford, signado por una fama ominosa y habitado por ancianos. Roman y Minnie Castavet, vecinos de los Woodhouse, acuden a darles la bienvenida e intentan, por todos los medios, establecer relacióncon ellos. Rosemary se muestra renuente a frecuentarlos, no solo porque los considera extraños sino también por los misteriosos ruidos procedentes de su apartamento. Guy, sin embargo, parece sentirse encantado con los Castavet."
+  },
+  {
+    "nombre": "It (Eso)",
+    "author": "Stephen King",
+    "genre": "Terror",
+    "price": "$14,99",
+    "url_img": "../assets/catalog/it.jpg",
+    "description": "¿Quién o qué mutila y mata a los niños de un pequeño pueblo norteamericano?. ¿Por qué llega cíclicamente el horror a Derry en forma de un payaso siniestro que va sembrando la destrucción a su paso?. Esto es lo que se proponen averiguar los protagonistas de esta novela. Tras veintisiete años de tranquilidad y lejanía, una antigua promesa infantil les hace volver al lugar en el que vivieron su infancia y juventud como una terrible pesadilla. Regresan a Derry para enfrentarse con su pasado y enterrar definitivamente la amenaza que los amargó durante su niñez. Saben que pueden morir, pero son conscientes de que no conocerán la paz hasta que aquella cosa sea destruida para siempre. It es una de las novelas más ambiciosas de Stephen King, con la que ha logrado perfeccionar de un modo muy personal las claves del género de terror."
+  },
+  {
+    "nombre": "El exorcista",
+    "author": "William Peter Blatty",
+    "genre": "Terror",
+    "price": "$14,99",
+    "url_img": "../assets/catalog/the_exorcist.jpg",
+    "description": "En 1950, mientras estudiaba en la Universidad de Georgetown, William Peter Blatty descubrió la historia de un chico de 12 años llamado Robbie, quién en la década de los cuarenta fue exorcizado por un grupo de sacerdotes en el estado de Washington, luego de ser diagnosticado como un caso de posesión demoníaca. Este suceso fu e muy popular en los Estados Unidos en aquella época y el hecho fue cubierto por los medios más importantes del país. Blatty tomó ese hecho y lo convirtió en una fascinante y terrorífica novela, que resultó un bet seller instantáneo en 1971. El libro generó su polémica y el fenómeno aumentó dos años después cuando el escritor adaptó su obra para el cine. Ya han pasado casi cuarenta años y la novela sigue viva. Con esta edición pretendemos no solo crear nuevos lectore..."
+  },
+  {
+    "nombre": "Guerra mundial Z",
+    "author": "Max Brooks",
+    "genre": "Terror",
+    "price": "$14,99",
+    "url_img": "../assets/catalog/world_war_z.jpg",
+    "description": "La crónica de cómo la humanidad se enfrentó a la peor amenaza jamás vista. El final estaba cerca, muy pocos vivieron para contarlo... Sobrevivimos al apocalipsis zombi, sin embargo ¿cuántos de nosotros todavía viven atormentados por los recuerdos de estos tiempos terribles? Hemos derrotado a los muertos vivientes, pero ¿a qué precio? ¿Es solo una victoria temporal? ¿Sigue la especie en peligro de extinción? Contada a través de las voces de aquellos que fueron testigos del horror, Guerra Mundial Z es el único documento que existe acerca de la pandemia que estuvo a punto de acabar con la humanidad."
+  }
+]
+}
