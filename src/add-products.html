@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="../styles/main-add-product.css" />
     <link rel="stylesheet" href="../styles/footer.css" />
     <script defer src="../scripts/contact.js"></script>
+    <script defer src="../scripts/add-product.js"></script>
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
@@ -133,38 +134,78 @@
       </div>
     </header>
     <main class="principal__add">
-      <form class="principal__add__form" action="">
+      <form id="form__add" class="principal__add__form" action="">
         <p class="principal__add__title">Add New Product</p>
         <div class="principal__input principal__add__url">
-          <input type="text" name="name" placeholder="none" required />
+          <input
+            class="product__add product__add__url"
+            type="url"
+            name="name"
+            placeholder="none"
+            required
+            data-tipo="url"
+          />
           <label for="name">Imagen URL</label>
+          <span class="alert-CRUD" for="name"></span>
         </div>
         <div class="principal__input principal__add__genre">
-          <input type="text" name="name" placeholder="none" required />
+          <input
+            class="product__add product__add__genre"
+            type="text"
+            name="name"
+            placeholder="none"
+            pattern="[A-Z a-z]{3,}"
+            required
+            data-tipo="genre"
+          />
           <label for="name">Genre</label>
+          <span class="alert-CRUD" for="name"></span>
         </div>
         <div class="principal__input principal__add__name-book">
-          <input type="text" name="name" placeholder="none" required />
+          <input
+            class="product__add product__add__title"
+            type="text"
+            name="name"
+            placeholder="none"
+            pattern="[A-Z a-z0-9:?!¿',.-]{2,20}"
+            required
+            data-tipo="title"
+          />
           <label for="name">Name's book</label>
+          <span class="alert-CRUD" for="name"></span>
         </div>
         <div class="principal__input principal__add__price">
-          <input type="text" name="name" placeholder="none" required />
+          <input
+            class="product__add product__add__price"
+            type="number"
+            min="0.01"
+            max="10000.00"
+            step="0.01"
+            name="name"
+            placeholder="none"
+            required
+            data-tipo="price"
+          />
           <label for="name">Book Price</label>
+          <span class="alert-CRUD" for="name"></span>
         </div>
         <div class="principal__textarea principal__add__description">
           <textarea
+            class="product__add product__add__description"
             placeholder="none"
             class="principal__description"
             rows="5"
             cols="40"
             id="message"
             name="message"
-            data-tipo="mensaje"
+            data-tipo="description"
             required=""
+            minlength="15"
           ></textarea>
           <label for="message" class="placeholder placeholder-mensaje"
             >Message</label
           >
+          <span class="alert-CRUD" for="name"></span>
         </div>
         <input class="principal__button" type="submit" value="Add Products" />
       </form>

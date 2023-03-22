@@ -11,7 +11,7 @@
   max-width: 736px;
   flex-direction: column;
   margin: 48px 0;
-  gap: 16px;
+  gap: 20px;
 }
 .principal__add .principal__add__form .principal__add__title {
   font-size: 2rem;
@@ -50,6 +50,18 @@
   color: var(--color-disable);
   transition: all 0.3s ease;
 }
+
+.principal__add .principal__add__form .principal__input .alert-CRUD,
+.principal__add .principal__add__form .principal__textarea .alert-CRUD {
+  position: absolute;
+  font-size: 1.2rem;
+  color: red;
+  background-color: transparent;
+  transform: translateY(46px) translateX(12px)
+}
+.principal__add .principal__add__form .principal__textarea .alert-CRUD {
+  transform: translateY(88px) translateX(12px)
+}
 .principal__add .principal__add__form .principal__textarea {
   position: relative;
   height: 84px; 
@@ -83,7 +95,7 @@
 }
 .principal__add .principal__add__form .principal__button{
   width: 100%;
-  height: 42px;
+  height: 42px;margin-top: 8px;
   background-color: var(--color-action);
   font-size: 1.4rem;
 }

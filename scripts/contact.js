@@ -16,7 +16,6 @@ const msjErrores = {
 };
 inputs.forEach((input) => {
   input.addEventListener("blur", (input) => {
-    console.log("hola");
     validar(input.target);
   });
 });
