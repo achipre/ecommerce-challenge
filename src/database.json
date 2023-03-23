@@ -1,4 +1,11 @@
 {
+  "admin": [
+    {
+      "id": 1,
+      "email": "admin",
+      "pass": "1234"
+    }
+  ],
   "libros": [
     {
       "id": 1,

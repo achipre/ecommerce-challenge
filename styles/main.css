@@ -33,9 +33,16 @@
 .form .title{
   font-size: 2.4rem;
   color: var(--color-tertiary);
-  padding-bottom: 56px;
+  padding-bottom: 32px;
   background-color: transparent;
 
+}
+
+.form .login__error { 
+  background-color: transparent;
+  font-size: 1.6rem;
+  color: var(--color-alert);
+  padding-bottom: 10px;
 }
 .form .card__form form{
   width: 100%;

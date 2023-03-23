@@ -48,7 +48,7 @@
   max-width: 1280px;
   background-color: transparent;
   margin: 0 auto;
-  padding: 0 16px 32px;
+  padding: 12px 36px;
 }
 .principal .catalog .genero{
   background-color: transparent;
@@ -145,7 +145,7 @@
 
 @media (min-width: 600px){
   .principal .catalog .genero .books picture {
-    min-width: 170px;
+    min-width: 168px;
   }
 }
 @media (min-width: 768px){
@@ -164,6 +164,6 @@
     font-size: 1.4rem;
   }
   .principal .catalog .genero .books picture {
-    min-width: 194px;
+    min-width: 187px;
   }
 }

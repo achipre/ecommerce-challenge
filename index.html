@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
     <script defer src="./scripts/contact.js"></script>
+    <script defer src="./scripts/login.js"></script>
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
@@ -133,14 +134,24 @@
       <img class="main__users" src="./assets/user.png" alt="Persona Leyendo" />
       <div class="form">
         <h1 class="title">Inicia Sesión</h1>
+        <span class="login__error text__transparent"
+          >Los datos ingresados son incorrectos</span
+        >
         <div class="card__form">
           <form action="">
             <div class="form__input form__input__email">
-              <input type="email" name="usermail" placeholder="none" required />
+              <input
+                class="login__email"
+                type="email"
+                name="usermail"
+                placeholder="none"
+                required
+              />
               <label for="usermail">Correo Electrónico</label>
             </div>
             <div class="form__input form__input__password">
               <input
+                class="login__pass"
                 type="password"
                 name="password"
                 placeholder="none"
@@ -150,7 +161,7 @@
             </div>
 
             <input
-              class="button__submit form__input__inside"
+              class="button__submit form__input__inside login__button"
               type="submit"
               value="Iniciar sesión"
             />

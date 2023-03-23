@@ -60,7 +60,7 @@ async function obtenerLibros() {
                 <section class="detail">
                   <p class="title__book">${e.nombre}</p>
                   <p class="price__book">$ ${e.price}</p>
-                  <a href="./product-card.html" class="ver__book">Ver Producto</a>
+                  <a id="${e.id}" href="#" class="ver__book">Ver Producto</a>
                 </section>
               </picture>
             `;
@@ -70,6 +70,7 @@ async function obtenerLibros() {
         </div>
       </section>`;
     });
+
     cuerpo.innerHTML = htmlToPrint;
   } catch (err) {
     console.log(err);
