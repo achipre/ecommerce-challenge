@@ -1,3 +1,4 @@
+// import { libraryAll } from "./allproduct";
 // Haz tú validación en javascript
 // Constantes de los inputs involucradas
 const inputsAdd = document.querySelectorAll(".product__add");
@@ -59,3 +60,43 @@ function mostrarTipoError(tipoDeInput, input) {
   });
   return msj;
 }
+
+// Obtener datos del Formulario
+// Boton del Formulario que agrega Libros
+const btnAddBook = document.querySelector(".principal__button");
+const formAddBook = document.querySelector(".form__add");
+
+const getInfoNewBook = () => {
+  const inputURL = document.querySelector(".product__add__url");
+  const url_img = inputURL.value;
+  const inputGenre = document.querySelector(".product__add__genre");
+  const genre = inputGenre.value;
+  const inputNameBook = document.querySelector(".product__add__title");
+  const nombre = inputNameBook.value;
+  const inputPrice = document.querySelector(".product__add__price");
+  const price = inputPrice.value;
+  const inputMessage = document.querySelector(".product__add__description");
+  const description = inputMessage.value;
+  let infoBook = {
+    url_img,
+    genre,
+    nombre,
+    price,
+    description,
+  };
+  return infoBook;
+};
+
+// Agregar Libro
+const addBook = async () => {
+  const fectLibrary = await fetch("http://localhost:3000/libros", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(getInfoNewBook()),
+  });
+};
+
+btnAddBook.addEventListener("click", (e) => {
+  e.preventDefault();
+  addBook();
+});

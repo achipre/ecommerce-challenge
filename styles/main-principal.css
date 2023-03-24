@@ -12,14 +12,33 @@
 }
 
 .principal .carousel .carousel__container .carousel__banner-promotion{
+  position: relative;
   aspect-ratio: 3;
   width: calc(300% / 3);
   display: flex;
   flex-wrap: nowrap;
 }
-.principal .carousel .carousel__container .carousel__banner-promotion:hover{
-  cursor: pointer;
+.principal .carousel .carousel__container .carousel__banner-promotion .button__promotion:hover{
+  opacity: 1;
 }
+
+.principal .carousel .carousel__container .carousel__banner-promotion .container__button{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  bottom: 2px;
+  background-color: transparent;
+}
+.principal .carousel .carousel__container .carousel__banner-promotion .button__promotion{
+  margin-left: 16px auto;
+  background-color: var(--color-tertiary);
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  padding: 6px;
+  opacity: 0.9;
+  border: 2px solid var(--color-tertiary);
+}
+
 .principal .carousel .carousel__puntos{
   display: flex;
   justify-content: center;
@@ -48,7 +67,7 @@
   max-width: 1280px;
   background-color: transparent;
   margin: 0 auto;
-  padding: 12px 36px;
+  padding: 12px;
 }
 .principal .catalog .genero{
   background-color: transparent;
@@ -103,7 +122,7 @@
 
 .principal .catalog .genero .books picture{
   aspect-ratio: 0.666;
-  min-width: 148px;
+  width: 148px;
   background-color: transparent;
 }
 .principal .catalog .genero .books picture .detail{
@@ -133,6 +152,7 @@
 }
 .principal .catalog .genero .books picture img{
   aspect-ratio: 0.666;
+  min-width: 148px;
 }
 
 
@@ -144,13 +164,29 @@
 }
 
 @media (min-width: 600px){
+  .principal .catalog {
+      padding: 12px 24px;
+  }
   .principal .catalog .genero .books picture {
+    width: 168px;
+  }
+  .principal .catalog .genero .books picture img {
     min-width: 168px;
+  }
+  .principal .carousel .carousel__container .carousel__banner-promotion .button__promotion {
+    font-size: 1.7rem;
+    margin-left: 24px;
   }
 }
 @media (min-width: 768px){
   .principal .carousel .carousel__container .carousel__banner-promotion {
     aspect-ratio: 3.5;
+  }
+  .principal .catalog {
+    max-width: 1280px;
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 12px 36px;
   }
   .principal .catalog .genero .books picture .detail .title__book {
     font-size: 1.6rem;
@@ -164,6 +200,25 @@
     font-size: 1.4rem;
   }
   .principal .catalog .genero .books picture {
+    width: 187px;
+  }
+  .principal .catalog .genero .books picture img {
+    aspect-ratio: 0.666;
     min-width: 187px;
   }
+  .principal .carousel .carousel__container .carousel__banner-promotion .container__button {
+    position: absolute;
+    bottom: 0;
+  }
+  .principal .carousel .carousel__container .carousel__banner-promotion .button__promotion {
+    font-size: 1.8rem;
+    padding: 12px;
+    margin-left: 36px
+  }
+}
+@media (min-width:1280px) {
+  .principal .carousel .carousel__container .carousel__banner-promotion .button__promotion {
+      margin-left: calc(50% - 600px)
+    }
+
 }

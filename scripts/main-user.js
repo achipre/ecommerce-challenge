@@ -32,7 +32,7 @@ async function obtenerLibros() {
       htmlToPrint += `
       <section class="genero">
         <div class="genero__head">
-          <h2 class="genero__head-title">${genero}</h2>
+          <h2 id="${genero}" class="genero__head-title">${genero}</h2>
           <a href="#" class="vermas">
             <p>Ver mas</p>
             <svg
@@ -60,7 +60,7 @@ async function obtenerLibros() {
                 <section class="detail">
                   <p class="title__book">${e.nombre}</p>
                   <p class="price__book">$ ${e.price}</p>
-                  <a id="${e.id}" href="#" class="ver__book">Ver Producto</a>
+                  <a id="${e.id}" href="./product-card.html" class="ver__book">Ver Producto</a>
                 </section>
               </picture>
             `;

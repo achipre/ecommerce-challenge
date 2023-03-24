@@ -2,9 +2,14 @@ const contenidoLibrary = document.querySelector(".books");
 
 // Function eliminar
 const eliminarBook = (id) => {
-  console.log("eliminar a ", id);
   return fetch(`http://localhost:3000/libros/${id}`, {
     method: "DELETE",
+  });
+};
+const viewCardProduct = (id) => {
+  console.log(id);
+  return fetch(`http://localhost:3000/libros/${id}`, {
+    method: "GET",
   });
 };
 
@@ -27,7 +32,7 @@ async function libraryAll() {
       <section class="detail">
         <p class="title__book">${e.nombre}</p>
         <p class="price__book">${e.price}</p>
-        <a href="./product-card.html" class="ver__book">Ver Producto</a>
+        <a id="${e.id}" href="#" class="ver__book">Ver Producto</a>
       </section>
     </picture>
     `;
@@ -38,8 +43,13 @@ async function libraryAll() {
   const verProduct = contenidoLibrary.querySelectorAll(".link__delete");
   verProduct.forEach((e) =>
     e.addEventListener("click", () => {
-      console.log(`Di click en ${e.id}`);
       eliminarBook(e.id);
+    })
+  );
+  const cardProduct = contenidoLibrary.querySelectorAll(".ver__book");
+  cardProduct.forEach((e) =>
+    e.addEventListener("click", () => {
+      viewCardProduct(e.id);
     })
   );
 }
